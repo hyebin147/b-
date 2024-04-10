@@ -1,0 +1,59 @@
+class student:
+    kind = '학생'
+   
+    def __init__(self, name, language, math, english):
+        self.name = name
+        self.language = language
+        self.math = math
+        self.english = english
+
+ 
+a = student
+a.name = ('학생1')
+a.language = 48
+a.math = 90
+a.english = 69
+print(f'{a.name}의 국어성적은:{a.language}')
+print(f'{a.name}의 수학성적은:{a.math}')
+print(f'{a.name}의 영어성적은:{a.english}')
+
+arr = [48, 90, 69]
+
+result = 0
+for val in arr:
+    result += val
+
+print(f"average : {result / len(arr)}")
+
+b = student
+b.name = ('학생2')
+b.language = 86
+b.math = 50
+b.english = 96
+print(f'{b.name}의 국어성적은:{b.language}')
+print(f'{b.name}의 수학성적은:{b.math}')
+print(f'{b.name}의 영어성적은:{b.english}')
+arr = [86, 50, 96]
+
+result = 0
+for val in arr:
+    result += val
+
+print(f"average : {result / len(arr)}")
+
+c = student
+c.name = ('학생3')
+c.language = 70
+c.math = 63
+c.english = 76
+
+print(f'{c.name}의 국어성적은:{c.language}')
+print(f'{c.name}의 수학성적은:{c.math}')
+print(f'{c.name}의 영어성적은:{c.english}')
+arr = [70, 63, 76]
+
+result = 0
+for val in arr:
+    result += val
+
+print(f"average : {result / len(arr)}")
